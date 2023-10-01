@@ -10,7 +10,7 @@ const Hero = () => {
           fill
           className="object-cover"
         />
-        <div className="content w-6/12 bg-black border flex justify-center p-8 flex-col text-left text-xl absolute bottom-4 right-4">
+        <div className="content w-6/12  border flex justify-center p-8 flex-col text-left text-xl absolute bottom-4 right-4 bg-[rgba(0,0,0,0.1)] backdrop-blur-xl">
           <p>Proyecto Piranha es una editorial y productora cultural.</p>
           <p>
             Desde el 2016 colabora con artistas visuales e ilustradores

@@ -18,6 +18,30 @@ p {
 
 @layer components {
   .menu-item {
-    @apply h-12 flex items-center transition-all uppercase px-4 hover:bg-white hover:text-black cursor-pointer border-b tracking-widest
+    @apply h-12 flex items-center transition-all uppercase px-4 hover:bg-white hover:text-black cursor-pointer border-b tracking-widest;
   }
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  z-index: 10;
+  position: relative;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: theme(colors.neutral.900);
+  border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: theme(colors.neutral.600);
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: theme(colors.neutral.400);
 }
