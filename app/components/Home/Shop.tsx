@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Shop = () => {
   return (
-    <div className="h-[100dvh] w-full relative flex items-center justify-center">
+    <div className="h-[100dvh] w-full relative flex items-center justify-center border-b">
       <div className="background absolute top-0 left-0 w-full h-full z-0">
         <Image
           src="/home/COVERS.jpg"

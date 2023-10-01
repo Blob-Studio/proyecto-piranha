@@ -2,16 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Kiosko = () => {
+const Kiosco = () => {
   return (
-    <div className="flex items-stretch">
+    <div className="flex items-stretch border-b">
       <div className="content flex flex-col px-4 w-1/2 border-r py-10">
-        <div className="header-image relative w-full h-[184px] mb-10">
+        <div className="header-image relative h-[184px] mb-10 w-10/12 mx-auto">
           <Image
             className="object-contain"
             src="/home/kiosko-heading.png"
             fill
-            alt="kiosko"
+            alt="kiosco"
           />
         </div>
         <div>
@@ -44,11 +44,11 @@ const Kiosko = () => {
           className="object-cover"
           src="/home/kiosco02.jpg"
           fill
-          alt="kiosko"
+          alt="kiosco"
         />
       </div>
     </div>
   );
 };
 
-export default Kiosko;
+export default Kiosco;
