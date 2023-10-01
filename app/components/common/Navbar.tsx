@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar w-full h-full border-r flex flex-col">
-      <div className="h-40 mb-5">
+      <div className="h-40">
         <div className="h-full w-10/12 mx-auto relative">
           <Link href="/">
             <Image
@@ -25,15 +25,6 @@ const Navbar = () => {
             />
           </Link>
         </div>
-      </div>
-      <div className="px-6 text-xs text-center">
-        <p>
-          Proyecto Piranha es una editorial y productora cultural.
-        </p>
-        <p>
-          Desde el 2016 colabora con artistas visuales e ilustradores
-          latinoamericanxs en la publicación y distribución de su obra.
-        </p>
       </div>
       <nav>
         <ul className="border-t">
