@@ -41,7 +41,7 @@ const Navbar = () => {
             <li key={idx}>
               {item.href ? (
                 <Link
-                  className={`menu-item ${
+                  className={`menu-item flex ${
                     pathname === item.href ? "bg-white text-black" : ""
                   }`}
                   key={idx}

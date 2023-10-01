@@ -33,7 +33,7 @@ const NavMenu: React.FC<NavMenuProps> = ({ label, links }) => {
       {links && (
         <ul className={`transition-all overflow-y-hidden ${!isMenuOpen ? 'max-h-0' : 'max-h-[100px]'}`}>
           {links.map((item, idx) => (
-            <li className={`menu-item pl-10 bg-neutral-800 ${pathname === item.href ? 'bg-white text-black' : ''}`} key={idx}>
+            <li className={`menu-item flex w-full pl-10 bg-neutral-800 ${pathname === item.href ? 'bg-white text-black' : ''}`} key={idx}>
               <Link key={idx} href={item.href} className="flex items-center">
                 {item.label}
               </Link>

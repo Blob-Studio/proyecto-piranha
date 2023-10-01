@@ -18,7 +18,7 @@ p {
 
 @layer components {
   .menu-item {
-    @apply h-12 flex transition-all px-4 hover:bg-neutral-700 cursor-pointer border-b tracking-widest items-center;
+    @apply h-12 flex transition-all px-4 hover:bg-white hover:text-black cursor-pointer border-b tracking-widest items-center;
   }
 }
 
