@@ -12,7 +12,7 @@ const Hero = () => {
         />
       </div>
       <div className="content w-5/12 h-full border-l flex justify-center text-left text-lg bg-black backdrop-blur-xl flex-col">
-        <div className="text-[16px] p-4 border-b h-1/3">
+        <div className="text-[12px] xl:text-[16px] p-4 border-b h-1/3">
           <p>
             Proyecto Piranha es una editorial y productora cultural.
           </p>
