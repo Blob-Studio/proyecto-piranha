@@ -1,31 +1,31 @@
 const navigation = [
   {
-    label: 'home',
+    label: '🐟 home',
     href: '/',
   },
   {
-    label: 'kiosko',
+    label: '🗞️ kiosko',
     links: [
       {
-        label: 'suscripción',
+        label: '📅 suscripción',
         href: '/suscripcion'
       },
       {
-        label: 'shop',
+        label: '🛒 shop',
         href: '/kiosko'
       }
     ]
   },
   {
-    label: 'contacto',
+    label: '📞 contacto',
     href: '/contacto'
   },
   {
-    label: 'tv',
+    label: '📺 tv',
     href: '/tv'
   },
   {
-    label: 'voraz',
+    label: '🦖 voraz',
     href: '/voraz'
   },
 ];

@@ -18,6 +18,6 @@ p {
 
 @layer components {
   .menu-item {
-    @apply h-20 flex items-center border-b transition-all uppercase px-4 hover:bg-white hover:text-black cursor-pointer font-semibold tracking-widest text-2xl
+    @apply h-12 flex items-center transition-all uppercase px-4 hover:bg-white hover:text-black cursor-pointer border-b tracking-widest
   }
 }

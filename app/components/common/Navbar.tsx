@@ -7,7 +7,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div className="navbar w-full h-full border-r flex flex-col">
-      <div className="h-40 border-b">
+      <div className="h-40 mb-5">
         <div className="h-full w-10/12 mx-auto relative">
           <Image
             src="/home/pianhapiranha-.png"
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
       </div>
       <nav>
-        <ul>
+        <ul className="border-t">
           {navigation.map((item, idx) => (
             <li key={idx}>
               {item.href ? (
